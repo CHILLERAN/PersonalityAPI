@@ -1,0 +1,6 @@
+CREATE TABLE traits (
+    id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    category  VARCHAR(100) NOT NULL,
+    trait  VARCHAR(100) NOT NULL,
+    description TEXT NOT NULL
+);
